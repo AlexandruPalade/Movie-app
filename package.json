@@ -1,0 +1,40 @@
+{
+  "name": "api-assignament",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=dev ts-node-dev --respawn index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/config": "^3.3.1",
+    "@types/cookie-parser": "^1.4.4",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.17",
+    "@types/mongodb": "^4.0.7",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandruPalade/Movie-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexandruPalade/Movie-app/issues"
+  },
+  "homepage": "https://github.com/AlexandruPalade/Movie-app#readme"
+}
