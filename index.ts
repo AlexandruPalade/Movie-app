@@ -25,4 +25,4 @@ app.use("/user", userRouter);
 app.use('/movie', movieRouter);
 
 // Start the Express app and listen on the port 
-app.listen(PORT);
+app.listen(3000);
