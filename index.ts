@@ -22,7 +22,9 @@ app.use(morgan("common"));
 
 // Mount the routers at the enpoints
 app.use("/user", userRouter);
-app.use('/movie', movieRouter);
+app.use("/movie", movieRouter);
 
-// Start the Express app and listen on the port 
-app.listen(3000);
+// Start the Express app and listen on the port
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
