@@ -1,5 +1,5 @@
 {
   "MONGODB": {
-    "URI": "mmongodb+srv://alex:1234@cluster0.qkzdxo4.mongodb.net/"
+    "URI": "mongodb+srv://alex:1234@cluster0.qkzdxo4.mongodb.net/"
   }
 }
